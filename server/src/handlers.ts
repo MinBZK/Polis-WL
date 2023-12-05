@@ -205,7 +205,7 @@ function handle_GET_launchPrep(
       Session.makeSessionToken()
     );
   }
-  cookies.setCookieTestCookie(req, res, setOnPolisDomain);
+  // cookies.setCookieTestCookie(req, res, setOnPolisDomain);
 
   // Argument of type '{ redirect: (arg0: any) => void; }' is not assignable to parameter of type '{ cookie: (arg0: any, arg1: any, arg2: any) => void; }'.
   // Property 'cookie' is missing in type '{ redirect: (arg0: any) => void; }' but required in type '{ cookie: (arg0: any, arg1: any, arg2: any) => void; }'.ts(2345)

@@ -1880,12 +1880,14 @@ function initializePolisHelpers() {
 
     // Argument of type '{ path: string; headers?: { host: string; } | undefined; }' is not assignable to parameter of type 'Req'.
     //  Property 'cookies' is missing in type '{ path: string; headers?: { host: string; } | undefined; }' but required in type 'Req'.ts(2345)
+    /*
     cookies.setCookieTestCookie(
       req,
       res,
       // @ts-ignore
       cookies.shouldSetCookieOnPolisDomain(req)
     );
+    */
 
     if (devMode) {
       buildNumber = null;
