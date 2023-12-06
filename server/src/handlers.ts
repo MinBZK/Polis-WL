@@ -3015,7 +3015,7 @@ function handle_GET_participationInit(
     req.p.lang = acceptLanguage.substr(0, 2);
   }
 
-  cookies.getPermanentCookieAndEnsureItIsSet(req, res);
+  // cookies.getPermanentCookieAndEnsureItIsSet(req, res);
 
   Promise.all([
     User.getUser(req.p.uid, req.p.zid, req.p.xid, req.p.owner_uid),
