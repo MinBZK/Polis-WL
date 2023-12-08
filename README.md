@@ -1,6 +1,6 @@
 # Pol.is Whitelabel
 
-Pol.is Whitelabel is a fork of [Pol.is](https://github.com/compdemocracy/polis). Pol.is is
+Pol.is Whitelabel NL is a fork of [Pol.is WL](https://github.com/DFE-Digital/polis-whitelabel) by the Department for Education Gov.uk forked from the original [Pol.is](https://github.com/compdemocracy/polis). Pol.is is
 a system for understanding what large groups of people think about an issue. Pol.is Whitelabel is a pared down version of Pol.is with the goals of separating out deployment code from application code, make the system more configurable and refactoring to make feature development more straightforward.
 
 ## Key differences from Pol.is
